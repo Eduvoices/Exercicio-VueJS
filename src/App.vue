@@ -14,22 +14,22 @@ import Resultado from './components/Resultado.vue';
   function soma(){
     const {numero1, numero2} = estado
 
-    return +numero1 + +numero2
+    return parseInt(numero1) + parseInt(numero2)
   }
 
   function subtracao(){
     const {numero1, numero2} = estado
-    return +numero1 - +numero2
+    return parseInt(numero1) - parseInt(numero2)
   }
 
     function multiplicação(){
     const {numero1, numero2} = estado
-    return +numero1 * +numero2
+    return parseInt(numero1) * parseInt(numero2)
   }
 
     function divisão(){
     const {numero1, numero2} = estado
-    return numero1 / numero2
+    return parseInt(numero1) / parseInt(numero2)
   }
 
 </script>
